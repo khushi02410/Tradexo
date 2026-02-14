@@ -1,0 +1,101 @@
+
+> programmatic-seo-countries@1.0.0 dev
+> next dev
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3000
+
+ ✓ Starting...
+ ✓ Ready in 1617ms
+(node:23969) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ ○ Compiling / ...
+request to https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7W0Q5n-wU.woff2 failed, reason: 
+
+Retrying 1/3...
+request to https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7W0Q5n-wU.woff2 failed, reason: 
+
+Retrying 1/3...
+request to https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7W0Q5n-wU.woff2 failed, reason: 
+
+Retrying 1/3...
+request to https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7W0Q5n-wU.woff2 failed, reason: 
+
+Retrying 1/3...
+request to https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7W0Q5n-wU.woff2 failed, reason: 
+
+Retrying 1/3...
+request to https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7W0Q5n-wU.woff2 failed, reason: 
+
+Retrying 1/3...
+request to https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2 failed, reason: 
+
+Retrying 1/3...
+ ✓ Compiled / in 5.6s (513 modules)
+[API] Fetching: https://restcountries.com/v3.1/all?fields=name,cca2,cca3,capital,region,subregion,languages,currencies,latlng,landlocked,borders,area,population,timezones,continents,flags,startOfWeek,capitalInfo,idd,tld,independent,status,unMember,flag,maps
+[API] Response status: 400 Bad Request
+Error fetching all countries: Error: Failed to fetch countries: Bad Request
+    at getAllCountries (webpack-internal:///(rsc)/./lib/api.ts:24:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async HomePage (webpack-internal:///(rsc)/./app/page.tsx:18:23)
+ ⨯ lib/api.ts (20:19) @ getAllCountries
+ ⨯ Error: Failed to fetch countries: Bad Request
+    at getAllCountries (./lib/api.ts:24:19)
+    at async HomePage (./app/page.tsx:18:23)
+digest: "1919319873"
+[0m [90m 18 |[39m[0m
+[0m [90m 19 |[39m         [36mif[39m ([33m![39mresponse[33m.[39mok) {[0m
+[0m[31m[1m>[22m[39m[90m 20 |[39m             [36mthrow[39m [36mnew[39m [33mError[39m([32m`Failed to fetch countries: ${response.statusText}`[39m)[33m;[39m[0m
+[0m [90m    |[39m                   [31m[1m^[22m[39m[0m
+[0m [90m 21 |[39m         }[0m
+[0m [90m 22 |[39m[0m
+[0m [90m 23 |[39m         [36mconst[39m data[33m:[39m [33mCountry[39m[] [33m=[39m [36mawait[39m response[33m.[39mjson()[33m;[39m[0m
+ ⨯ lib/api.ts (20:19) @ getAllCountries
+ ⨯ Error: Failed to fetch countries: Bad Request
+    at getAllCountries (./lib/api.ts:24:19)
+    at async HomePage (./app/page.tsx:18:23)
+digest: "1919319873"
+[0m [90m 18 |[39m[0m
+[0m [90m 19 |[39m         [36mif[39m ([33m![39mresponse[33m.[39mok) {[0m
+[0m[31m[1m>[22m[39m[90m 20 |[39m             [36mthrow[39m [36mnew[39m [33mError[39m([32m`Failed to fetch countries: ${response.statusText}`[39m)[33m;[39m[0m
+[0m [90m    |[39m                   [31m[1m^[22m[39m[0m
+[0m [90m 21 |[39m         }[0m
+[0m [90m 22 |[39m[0m
+[0m [90m 23 |[39m         [36mconst[39m data[33m:[39m [33mCountry[39m[] [33m=[39m [36mawait[39m response[33m.[39mjson()[33m;[39m[0m
+ GET / 500 in 8044ms
+[API] Fetching: https://restcountries.com/v3.1/all?fields=name,cca2,cca3,capital,region,subregion,languages,currencies,latlng,landlocked,borders,area,population,timezones,continents,flags,startOfWeek,capitalInfo,idd,tld,independent,status,unMember,flag,maps
+[API] Response status: 400 Bad Request
+Error fetching all countries: Error: Failed to fetch countries: Bad Request
+    at getAllCountries (webpack-internal:///(rsc)/./lib/api.ts:24:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async HomePage (webpack-internal:///(rsc)/./app/page.tsx:18:23)
+ ⨯ lib/api.ts (20:19) @ getAllCountries
+ ⨯ Error: Failed to fetch countries: Bad Request
+    at getAllCountries (./lib/api.ts:24:19)
+    at async HomePage (./app/page.tsx:18:23)
+digest: "1919319873"
+[0m [90m 18 |[39m[0m
+[0m [90m 19 |[39m         [36mif[39m ([33m![39mresponse[33m.[39mok) {[0m
+[0m[31m[1m>[22m[39m[90m 20 |[39m             [36mthrow[39m [36mnew[39m [33mError[39m([32m`Failed to fetch countries: ${response.statusText}`[39m)[33m;[39m[0m
+[0m [90m    |[39m                   [31m[1m^[22m[39m[0m
+[0m [90m 21 |[39m         }[0m
+[0m [90m 22 |[39m[0m
+[0m [90m 23 |[39m         [36mconst[39m data[33m:[39m [33mCountry[39m[] [33m=[39m [36mawait[39m response[33m.[39mjson()[33m;[39m[0m
+ ⨯ lib/api.ts (20:19) @ getAllCountries
+ ⨯ Error: Failed to fetch countries: Bad Request
+    at getAllCountries (./lib/api.ts:24:19)
+    at async HomePage (./app/page.tsx:18:23)
+digest: "1919319873"
+[0m [90m 18 |[39m[0m
+[0m [90m 19 |[39m         [36mif[39m ([33m![39mresponse[33m.[39mok) {[0m
+[0m[31m[1m>[22m[39m[90m 20 |[39m             [36mthrow[39m [36mnew[39m [33mError[39m([32m`Failed to fetch countries: ${response.statusText}`[39m)[33m;[39m[0m
+[0m [90m    |[39m                   [31m[1m^[22m[39m[0m
+[0m [90m 21 |[39m         }[0m
+[0m [90m 22 |[39m[0m
+[0m [90m 23 |[39m         [36mconst[39m data[33m:[39m [33mCountry[39m[] [33m=[39m [36mawait[39m response[33m.[39mjson()[33m;[39m[0m
+ GET / 500 in 699ms
+ ✓ Compiled in 164ms (247 modules)
+ GET / 200 in 1687ms
+ ✓ Compiled /country/[slug] in 481ms (499 modules)
+ GET /country/angola 200 in 1998ms
+ GET / 200 in 1676ms
