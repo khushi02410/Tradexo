@@ -5,6 +5,9 @@
   "engines": {
   "node": "20.x"
   },
+  "resolutions": {
+  "unrs-resolver": "1.10.0"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
