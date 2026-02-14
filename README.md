@@ -60,7 +60,7 @@ Each page (`/stock/[ticker]`) is auto-optimized with:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/Tradexo
+   git clone https://github.com/khushi02410/Tradexo.git
    ```
 
 2. Install dependencies:
